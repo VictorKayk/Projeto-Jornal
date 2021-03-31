@@ -19,6 +19,9 @@
     src:url(fontes/be-vietnam/BeVietnam-Regular.ttf) format('truetype');
 }
 
+
+
+
 /*Variaveis*/
 :root{
     --cor-principal: #201a1e;
@@ -34,6 +37,8 @@
 html,body{
     overflow-x:hidden;
 }
+
+
 
 
 /*Configuração do cabeçalho*/
@@ -96,22 +101,22 @@ html,body{
 
 /*Configuração do Rodapé*/
 /*Configuração do logo do rodapé*/
-.footer-bg{ /**/
+.footer-bg{ /*Background do rodapé*/
     display:flex;
 
     flex-wrap:wrap;
 }
-.footer-principal{ /**/
+.footer-principal{ /*Rodapé principal*/
     width:100%;
 
     background-color: var(--cor-principal);
 }
 
-.logo-img-footer{ /**/
+.logo-img-footer{ /*Configurando o tamanho da logo no rodapé*/
     width:600px;
     padding:25px;
 }
-.footer-logo{ /**/
+.footer-logo{ /*Rodapé na parte da logo*/
     display:flex;
 
     justify-content:center;
@@ -120,25 +125,27 @@ html,body{
     width:100%;
 }
 
-.img-redes{ /**/
-    width:40px;
+/*Configuração dos links de redes sociais*/
+.footer-redes{ /*Conteiner dos links das redes sociais*/
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    width:100%;
 }
-.img-redes-list{ /**/
+.img-redes-list{ /*Lista para os links das redes socias*/
     display:flex;
 }
-.img-redes-list li{ /**/
+.img-redes-list li{ /*Configuração dos espaçamentos das imagens sociais*/
     padding:0px 20px;
 }
-.footer-redes{ /**/
-    display:flex;
-
-    justify-content:center;
-    align-items:center;
-
-    width:100%;
+.img-redes{ /*Configurando o tamanho das imagens de redes sociais*/
+    width:40px;
 }
 
-.footer-list{ /**/
+/*Configuração da barra de navegação do rodapé*/
+.footer-list{ /*Configuração do conteiner da barra de navegação*/
     display:flex;
 
     justify-content:center;
@@ -148,22 +155,23 @@ html,body{
     font-family:Arkhip;
     font-size:17px; 
 }
-.footer-list li{ /**/
+.footer-list li{ /*Configuração dos itens de navegação individual*/
     padding:0px 20px;
     padding-top:40px;
     padding-bottom:80px;
 }
-.footer-list li a, li a:link, li a:checked, li a:active{
+.footer-list li a, li a:link, li a:checked, li a:active{ /*Configuração dos links de navegação*/
     color:white;
     text-decoration:none;
 
     padding:4px
 }
-.footer-list li a:hover{ /**/
+.footer-list li a:hover{ /*Configuração dos links de navegação, quando o mouse passa por cima do link*/
     border-bottom: 2px solid white;
 }
 
-.footer-made{
+/*Configuração da parte "creditos" do rodapé*/
+.footer-made{ /*Configuração do conteiner dos "creditos"*/
     display:flex;
 
     justify-content: center;
@@ -177,7 +185,7 @@ html,body{
     font-family:"be-vietnam";
     font-size:18px;
 }
-.footer-made p{
+.footer-made p{ /*Configuração do paragrafo dos "creditos"*/
     color: white;
 
     padding:7px;
