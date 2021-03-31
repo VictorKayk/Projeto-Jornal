@@ -1,0 +1,184 @@
+/*
+
+
+        MUDAR OS TAMANHOS DAS FONTES PARA em
+
+
+*/
+
+
+@charset "UTF-8";
+
+/*Fontes*/
+@font-face{ /*Fonte Arkhip*/
+    font-family: Arkhip;
+    src:url(fontes/Arkhip/Arkhip-Regular.otf) format('opentype'), url(fontes/Arkhip/Arkhip-Regular.ttf) format('truetype');
+}
+@font-face{ /*Fonte be-vietnam*/
+    font-family: "be-vietnam";
+    src:url(fontes/be-vietnam/BeVietnam-Regular.ttf) format('truetype');
+}
+
+/*Variaveis*/
+:root{
+    --cor-principal: #201a1e;
+    --cor-secundaria: #151015
+}
+
+/*Configurações globais*/
+*{
+    box-sizing:border-box;
+}
+
+/*Retirando a barra lateral na responsividade*/
+html,body{
+    overflow-x:hidden;
+}
+
+
+/*Configuração do cabeçalho*/
+/*Configurando o cabeçalho na logo*/
+.header-bg{ /*Background do cabeçalho*/
+    display:flex;
+
+    flex-wrap:wrap;
+}
+.header-logo{ /*Logo do cabeçalho*/
+    display:flex;
+
+    justify-content: center;
+    align-items:center;
+
+    background-color: var(--cor-principal);
+    width:100%;
+}
+.logo-img-header{ /*Imagem do logo*/
+    width:700px;
+    padding:25px;
+}
+
+/*Configurando o cabeçalho na parte dos links de navegação*/
+.header-nav{ /*Links de navegação do cabeçalho*/
+    display:flex;
+
+    justify-content: center;
+
+    background-color: var(--cor-secundaria);
+    width:100%;
+}
+.header-list{ /*Lista de links do cabeçalho*/
+    display:flex;
+
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+
+    width: 900px;
+
+    font-family:Arkhip;
+    font-size: 17px;
+    padding: 13px;
+    
+}
+.header-list li a, li a:active, li a:link, li a:checked{ /*configurando cada item individual dos links*/
+    color:white;
+    text-decoration:none;
+
+    padding:4px;
+}
+.header-list li a:hover{ /*Configurando quando se passa o mouse por cima dos botões*/
+    border-bottom:2px solid white;
+}
+
+
+
+
+
+/*Configuração do Rodapé*/
+/*Configuração do logo do rodapé*/
+.footer-bg{ /**/
+    display:flex;
+
+    flex-wrap:wrap;
+}
+.footer-principal{ /**/
+    width:100%;
+
+    background-color: var(--cor-principal);
+}
+
+.logo-img-footer{ /**/
+    width:600px;
+    padding:25px;
+}
+.footer-logo{ /**/
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    width:100%;
+}
+
+.img-redes{ /**/
+    width:40px;
+}
+.img-redes-list{ /**/
+    display:flex;
+}
+.img-redes-list li{ /**/
+    padding:0px 20px;
+}
+.footer-redes{ /**/
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    width:100%;
+}
+
+.footer-list{ /**/
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+
+    font-family:Arkhip;
+    font-size:17px; 
+}
+.footer-list li{ /**/
+    padding:0px 20px;
+    padding-top:40px;
+    padding-bottom:80px;
+}
+.footer-list li a, li a:link, li a:checked, li a:active{
+    color:white;
+    text-decoration:none;
+
+    padding:4px
+}
+.footer-list li a:hover{ /**/
+    border-bottom: 2px solid white;
+}
+
+.footer-made{
+    display:flex;
+
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+
+    width:100%;
+
+    background-color:var(--cor-secundaria);
+
+    font-family:"be-vietnam";
+    font-size:18px;
+}
+.footer-made p{
+    color: white;
+
+    padding:7px;
+}
