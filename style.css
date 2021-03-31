@@ -1,7 +1,8 @@
 /*
 
 
-        MUDAR OS TAMANHOS DAS FONTES PARA em
+    Mural de lembretes: 
+        ° Nada ainda.
 
 
 */
@@ -81,7 +82,7 @@ html,body{
     width: 900px;
 
     font-family:Arkhip;
-    font-size: 17px;
+    font-size: 1.0625em; /*17px*/
     padding: 13px;
     
 }
@@ -153,7 +154,7 @@ html,body{
     flex-wrap:wrap;
 
     font-family:Arkhip;
-    font-size:17px; 
+    font-size:1.0625em; /*17px*/
 }
 .footer-list li{ /*Configuração dos itens de navegação individual*/
     padding:0px 20px;
@@ -183,7 +184,7 @@ html,body{
     background-color:var(--cor-secundaria);
 
     font-family:"be-vietnam";
-    font-size:18px;
+    font-size:1.125em; /*18px*/
 }
 .footer-made p{ /*Configuração do paragrafo dos "creditos"*/
     color: white;
