@@ -219,14 +219,21 @@ html,body{
 
     width:100%;
 }
+.img-redes{ /*Configurando o tamanho das imagens de redes sociais*/
+    width:40px;
+}
 .img-redes-list{ /*Lista para os links das redes socias*/
     display:flex;
 }
 .img-redes-list li{ /*Configuração dos espaçamentos das imagens sociais*/
     padding:5px 20px;
 }
-.img-redes{ /*Configurando o tamanho das imagens de redes sociais*/
-    width:40px;
+
+/*Configurando a responsividade dos links de redes sociais*/
+@media screen and (max-width:475px){
+    .img-redes{
+        width:35px;
+    }
 }
 
 /*Configuração da barra de navegação do rodapé*/
