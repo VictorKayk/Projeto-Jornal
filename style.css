@@ -2,7 +2,8 @@
 
 
     Mural de lembretes: 
-        ° Nada ainda.
+        ° Responsividade para o cabeçalho.
+        ° Responsividade para o rodapé
 
 
 */
@@ -103,12 +104,12 @@ html,body{
 }
 
 /*Configuração da responsividade da barra de navegação (cabeçalho)*/
-@media screen and (max-width: 1025px){ /**/
+@media screen and (max-width: 1025px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 1025px*/
     .list-item{
         padding:10px 0px;
     }
 }
-@media screen and (max-width:625px){ /**/
+@media screen and (max-width:625px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 625px*/
     .border{
         width: 150px;
     }
@@ -116,7 +117,7 @@ html,body{
         width: 200px;
     }
 }
-@media screen and (max-width:475px){ /**/
+@media screen and (max-width:475px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 475px*/
     .border{
         width: 125px;
     }
@@ -124,7 +125,7 @@ html,body{
         width: 175px;
     }
 }
-@media screen and (max-width:275px){ /**/
+@media screen and (max-width:275px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 275px*/
     .list-item{
         border: none;
     }
