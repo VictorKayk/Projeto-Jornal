@@ -70,24 +70,23 @@ html,body{
     width:300px;
 
     padding:25px 20px;
+    padding-top:0px;
 }
 
 /*Configurando a responsividade do logo (cabeçalho)*/
-@media screen and (max-width: 799px){
-    .logo-img-header-hermes{
+@media screen and (max-width: 799px){ /*Responsividade do logo (cabeçalho), quando chega no tamanho de 799px*/
+    .logo-img-header-hermes{ /*Configurando o tamanho do logo Hermes (cabeçalho)*/
         width:450px;
     }
-    .logo-img-header-diary{
+    .logo-img-header-diary{ /*Configurando o tamanho do logo Diary (cabeçalho)*/
         width:250px;
-
-        padding-top: 0px;
     }
 }
-@media screen and (max-width:475px){
-    .logo-img-header-hermes{
+@media screen and (max-width:475px){ /*Responsividade do logo (cabeçalho), quando chega no tamanho de 475px*/
+    .logo-img-header-hermes{ /*Configurando o tamanho do logo Hermes (cabeçalho)*/
         width:400px;
     }
-    .logo-img-header-diary{
+    .logo-img-header-diary{ /*Configurando o tamanho do logo Diary (cabeçalho)*/
         width:200px;
     }
 } 
@@ -190,6 +189,25 @@ html,body{
 .logo-img-footer-diary{
     width: 200px;
     padding:25px 15px;
+    padding-top:0px;
+}
+
+/*Configurando a responsividade do logo (rodapé)*/
+@media screen and (max-width:799px){ /*Responsividade do logo (rodapé), quando chega no tamanho de 799px*/
+    .logo-img-footer-hermes{ /*Configurando o tamanho do logo Hermes (rodapé)*/
+        width:350px;
+    }
+    .logo-img-footer-diary{ /*Configurando o tamanho do logo Diary (rodapé)*/
+        width:150px;
+    }
+}
+@media screen and (max-width:475px){ /*Responsividade do logo (rodapé), quando chega no tamanho de 475px*/
+    .logo-img-footer-hermes{ /*Configurando o tamanho do logo Hermes (rodapé)*/
+        width:300px;
+    }
+    .logo-img-footer-diary{ /*Configurando o tamanho do logo Diary (rodapé)*/
+        width:140px;
+    }
 }
 
 /*Configuração dos links de redes sociais*/
