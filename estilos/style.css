@@ -3,6 +3,7 @@
 
     Mural de lembretes: 
         ° Responsividade para o cabeçalho.
+        ° Configurar a aparencia dos links quando um mouse passa por eles
         ° Responsividade para o rodapé
 
 
@@ -54,15 +55,42 @@ html,body{
     display:flex;
 
     justify-content: center;
-    align-items:center;
+    align-items:flex-end;
+    flex-wrap:wrap;
 
     background-color: var(--cor-principal);
     width:100%;
 }
-.logo-img-header{ /*Imagem do logo*/
-    width:700px;
-    padding:25px;
+.logo-img-header-hermes{ /*Imagem do logo Hermes*/
+    width:500px;
+
+    padding:25px 20px;
 }
+.logo-img-header-diary{ /*Imagem do logo Diary*/
+    width:300px;
+
+    padding:25px 20px;
+}
+
+/*Configurando a responsividade do logo (cabeçalho)*/
+@media screen and (max-width: 799px){
+    .logo-img-header-hermes{
+        width:450px;
+    }
+    .logo-img-header-diary{
+        width:250px;
+
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width:475px){
+    .logo-img-header-hermes{
+        width:400px;
+    }
+    .logo-img-header-diary{
+        width:200px;
+    }
+} 
 
 /*Configurando o cabeçalho na parte dos links de navegação*/
 .header-nav{ /*Links de navegação do cabeçalho*/
@@ -146,18 +174,22 @@ html,body{
 
     background-color: var(--cor-principal);
 }
-
-.logo-img-footer{ /*Configurando o tamanho da logo no rodapé*/
-    width:600px;
-    padding:25px;
-}
 .footer-logo{ /*Rodapé na parte da logo*/
     display:flex;
 
     justify-content:center;
-    align-items:center;
+    align-items:flex-end;
+    flex-wrap:wrap;
 
     width:100%;
+}
+.logo-img-footer-hermes{ /*Configurando o tamanho da logo no rodapé*/
+    width:400px;
+    padding:25px 15px;
+}
+.logo-img-footer-diary{
+    width: 200px;
+    padding:25px 15px;
 }
 
 /*Configuração dos links de redes sociais*/
@@ -173,7 +205,7 @@ html,body{
     display:flex;
 }
 .img-redes-list li{ /*Configuração dos espaçamentos das imagens sociais*/
-    padding:0px 20px;
+    padding:5px 20px;
 }
 .img-redes{ /*Configurando o tamanho das imagens de redes sociais*/
     width:40px;
