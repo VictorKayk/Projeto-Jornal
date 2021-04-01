@@ -109,13 +109,19 @@ html,body{
     }
 }
 @media screen and (max-width:625px){ /**/
-    .list-item{
+    .border{
         width: 150px;
+    }
+    .no-border{
+        width: 200px;
     }
 }
 @media screen and (max-width:475px){ /**/
-    .list-item{
+    .border{
         width: 125px;
+    }
+    .no-border{
+        width: 175px;
     }
 }
 @media screen and (max-width:275px){ /**/
