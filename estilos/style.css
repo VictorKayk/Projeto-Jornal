@@ -2,9 +2,7 @@
 
 
     Mural de lembretes: 
-        ° Responsividade para o cabeçalho.
         ° Configurar a aparencia dos links quando um mouse passa por eles
-        ° Responsividade para o rodapé
 
 
 */
@@ -132,28 +130,38 @@ html,body{
 
 /*Configuração da responsividade da barra de navegação (cabeçalho)*/
 @media screen and (max-width: 1025px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 1025px*/
-    .list-item{
+    .list-item{ /*Configurando o espaçamento dos itens da lista de navegação*/
         padding:10px 0px;
     }
 }
+@media screen and (max-width:825px){ /*Responsividade individual do 3° item da barra de navegação (cabeçalho), quando chega no tamanho de 825px*/
+    .no-border-825{ /*Tirando a borda direita do 3° item da barra de navegação (cabeçalho)*/
+        border-right:none;
+    }
+}
 @media screen and (max-width:625px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 625px*/
-    .border{
+    .border{ /*Configurando o tamanho do conteiner dos links com borda*/
         width: 150px;
     }
-    .no-border{
-        width: 200px;
+    .no-border{ /*Configurando o tamanho do conteiner dos links sem borda*/
+        width: 150px;
     }
 }
 @media screen and (max-width:475px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 475px*/
-    .border{
+    .border{ /*Configurando o tamanho do conteiner dos links com borda*/
         width: 125px;
     }
-    .no-border{
-        width: 175px;
+    .no-border{ /*Configurando o tamanho do conteiner dos links sem borda*/
+        width: 125px;
+    }
+}
+@media screen and (max-width:400px){ /*Responsividade individual do 3° item da barra de navegação (cabeçalho), quando chega no tamanho de 825px*/
+    .no-border-825{ /*Tirando a borda direita do 3° item da barra de navegação (cabeçalho)*/
+        border-right: 5px solid var(--cor-principal);
     }
 }
 @media screen and (max-width:275px){ /*Responsividade da barra de navegação (cabeçalho), quando chega no tamanho de 275px*/
-    .list-item{
+    .list-item{ /*Retirando as bordas*/
         border: none;
     }
 }
@@ -260,6 +268,23 @@ html,body{
 }
 .footer-list li a:hover{ /*Configuração dos links de navegação, quando o mouse passa por cima do link*/
     border-bottom: 2px solid white;
+}
+
+/*Responsividade da barra de navegação do rodapé*/
+@media screen and (max-width:501px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 501px*/
+    .no-padding-footer li{
+        padding-top:0px;
+    }
+}
+@media screen and (max-width:382px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 382px*/
+    .no-padding-footer2 li{
+        padding-top:0px;
+    }
+}
+@media screen and (max-width:284px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 284px*/
+    .no-padding-footer3 li{
+        padding-top:0px;
+    }
 }
 
 /*Configuração da parte "creditos" do rodapé*/
