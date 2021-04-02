@@ -82,7 +82,7 @@
     padding:4px;
 }
 .header-list li a:hover{ /*Configurando quando se passa o mouse por cima dos botões*/
-    color:var(--cor-principal);
+    color: var(--cor-link);
 }
 .list-item{ /*Cada item de navegação indenpendente*/
     display:flex;
@@ -119,6 +119,8 @@
     }
     .no-border{ /*Configurando o tamanho do conteiner dos links sem borda*/
         width: 125px;
+
+        margin-left:10px;
     }
 }
 @media screen and (max-width:400px){ /*Responsividade individual do 3° item da barra de navegação (cabeçalho), quando chega no tamanho de 825px*/
@@ -230,10 +232,12 @@
     color:white;
     text-decoration:none;
 
-    padding:4px
+    padding:5px
 }
 .footer-list li a:hover{ /*Configuração dos links de navegação, quando o mouse passa por cima do link*/
-    border-bottom: 2px solid white;
+    color:var(--cor-link);
+
+    border-bottom: 2px solid var(--cor-link);
 }
 
 /*Responsividade da barra de navegação do rodapé*/
@@ -242,12 +246,12 @@
         padding-top:0px;
     }
 }
-@media screen and (max-width:382px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 382px*/
+@media screen and (max-width:439px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 382px*/
     .no-padding-footer2 li{
         padding-top:0px;
     }
 }
-@media screen and (max-width:284px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 284px*/
+@media screen and (max-width:324px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 284px*/
     .no-padding-footer3 li{
         padding-top:0px;
     }

@@ -16,7 +16,8 @@
 /*Variaveis*/
 :root{
     --cor-principal: #201a1e;
-    --cor-secundaria: #151015
+    --cor-secundaria: #151015;
+	--cor-link: #44245c;
 }
 
 /*Configurações globais*/
