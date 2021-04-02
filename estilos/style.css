@@ -7,3 +7,34 @@
 
 
 */
+
+
+
+
+
+
+
+
+
+/*Configuração da pagina de temas*/
+.pag-temas{ /*Configurando o background*/
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+    width: 100%;
+
+    background-color: var(--cor-principal);
+
+    margin:50px 0px;
+}
+.tema-img{ /*Configuração das imagens dos temas*/
+    width:400px;
+
+    padding:20px 20px;
+
+    transition:all 0.3s;
+}
+.tema-img:hover{
+    transform:scale(1.05);
+}
