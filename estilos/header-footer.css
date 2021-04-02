@@ -25,7 +25,7 @@
     background-color: var(--cor-principal);
     width:100%;
 }
-.header-link{
+.header-link{ /*Área maior clicavel no logo (cabeçalho)*/
     display:flex;
 
     justify-content: center;
@@ -165,18 +165,18 @@
 
     width:100%;
 }
-.footer-link{
+.footer-link{ /*Área maior clicavel no logo (rodapé)*/
     display: flex;
 
     justify-content:center;
     align-items:flex-end;
     flex-wrap:wrap;
 }
-.logo-img-footer-hermes{ /*Configurando o tamanho da logo no rodapé*/
+.logo-img-footer-hermes{ /*Configurando o tamanho da logo Hermes no rodapé*/
     width:400px;
     padding:25px 15px;
 }
-.logo-img-footer-diary{
+.logo-img-footer-diary{ /*Configurando o tamanho da logo Diary no rodapé*/
     width: 200px;
     padding:25px 15px;
     padding-top:0px;
@@ -220,7 +220,7 @@
 }
 
 /*Configurando a responsividade dos links de redes sociais*/
-@media screen and (max-width:475px){
+@media screen and (max-width:475px){ /*Configurando o tamanho, quando chega no tamanho de 475px*/
     .img-redes{
         width:35px;
     }
