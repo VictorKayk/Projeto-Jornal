@@ -165,6 +165,13 @@
 
     width:100%;
 }
+.footer-link{
+    display: flex;
+
+    justify-content:center;
+    align-items:flex-end;
+    flex-wrap:wrap;
+}
 .logo-img-footer-hermes{ /*Configurando o tamanho da logo no rodapé*/
     width:400px;
     padding:25px 15px;
