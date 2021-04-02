@@ -25,6 +25,13 @@
     background-color: var(--cor-principal);
     width:100%;
 }
+.header-link{
+    display:flex;
+
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap:wrap;
+}
 .logo-img-header-hermes{ /*Imagem do logo Hermes*/
     width:500px;
 
