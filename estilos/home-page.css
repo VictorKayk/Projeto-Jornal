@@ -3,8 +3,6 @@
     Mural de lembretes:
     ° Fazer o modelo de noticias na pagina principal
     ° Fazer o modelo das moedas na pagina principal
-    ° Fazer o modelo de pagina de temas na pagina principal
-    ° Fazer a responsividade do modelo de pagina de temas na pagina princiapl
 
 
 */
@@ -20,7 +18,7 @@
 /*Configuração da pagina de temas*/
 .pag-temas{ /*Configurando o background*/
     display:flex;
-    justify-content:space-evenly; /*Duvida entre center e space-evenly*/
+    justify-content:space-evenly;
     flex-wrap:wrap;
 
     width: 100%;
@@ -41,57 +39,62 @@
 }
 
 /*Configurando a responsividade da pagina de temas*/
-@media screen and (max-width:1250px){
-    .tema-img{
+@media screen and (min-width:1500px){ /*Responsividade da pagina de temas, antes de chegar no tamanho de 1500px*/
+    .tema-img{  /*Configurando o tamanho das imagens de tema*/
+        width:450px;
+    }
+}
+@media screen and (max-width:1250px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 1250px*/
+    .tema-img{  /*Configurando o tamanho das imagens de tema, e o espaçamento*/
         width:370px;
 
         padding:20px 15px;
     }
 }
-@media screen and (max-width:1200px){
-    .pag-temas{
+@media screen and (max-width:1200px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 1200px*/
+    .pag-temas{ /*Centralizando as imagens de tema*/
         justify-content:center; 
     }
-    .tema-img{
+    .tema-img{  /*Configurando o tamanho das imagens de tema, e o espaçamento*/
         width:450px;
 
         padding: 25px 30px;
     }
 }
-@media screen and (max-width:899px){
-    .tema-img{
+@media screen and (max-width:899px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 899px*/
+    .tema-img{  /*Configurando o tamanho das imagens de tema, e o espaçamento*/
         width:400px;
 
         padding:25px 20px;
     }
 }
-@media screen and (max-width:799px){
-    .pag-temas{
+@media screen and (max-width:799px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 799px*/
+    .pag-temas{ /*Configurando o espaçamento inferior do conteiner das paginas de tema*/
         padding-bottom:15px;
     }
-    .tema-img{
+    .tema-img{  /*Configurando o tamanho das imagens de tema, e o espaçamento*/
         width:450px;
 
         padding: 25px 20px 10px 20px;
     }
 }
-@media screen and (max-width:460px){
-    .tema-img{
+@media screen and (max-width:460px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 460px*/
+    .tema-img{ /*Configurando o tamanho das imagens de tema*/
         width:400px;
     }
 }
-@media screen and (max-width:390px){
-    .tema-img{
+@media screen and (max-width:390px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 390px*/
+    .tema-img{ /*Configurando o tamanho das imagens de tema*/
         width:350px;
     }
 }
-@media screen and (max-width:340px){
-    .tema-img{
+@media screen and (max-width:340px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 340px*/
+    .tema-img{ /*Configurando o tamanho das imagens de tema*/
         width:300px;
     }
 }
-@media screen and (max-width:275px){
-    .tema-img{
+@media screen and (max-width:275px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 275px*/
+    .tema-img{ /*Configurando o tamanho das imagens de tema*/
         width:250px;
     }
 }
