@@ -1,0 +1,97 @@
+/*
+
+    Mural de lembretes:
+    ° Fazer o modelo de noticias na pagina principal
+    ° Fazer o modelo das moedas na pagina principal
+    ° Fazer o modelo de pagina de temas na pagina principal
+    ° Fazer a responsividade do modelo de pagina de temas na pagina princiapl
+
+
+*/
+
+
+/*Configuração das noticias*/
+
+
+
+
+
+
+/*Configuração da pagina de temas*/
+.pag-temas{ /*Configurando o background*/
+    display:flex;
+    justify-content:space-evenly; /*Duvida entre center e space-evenly*/
+    flex-wrap:wrap;
+
+    width: 100%;
+
+    background-color: var(--cor-principal);
+
+    margin:50px 0px;
+}
+.tema-img{ /*Configuração das imagens dos temas*/
+    width:400px;
+
+    padding:25px 20px;
+
+    transition:all 0.3s;
+}
+.tema-img:hover{ /*Configurando quanto a imagem vai aumentar quando o mouse passar por cima*/
+    transform:scale(1.05);
+}
+
+/*Configurando a responsividade da pagina de temas*/
+@media screen and (max-width:1250px){
+    .tema-img{
+        width:370px;
+
+        padding:20px 15px;
+    }
+}
+@media screen and (max-width:1200px){
+    .pag-temas{
+        justify-content:center; 
+    }
+    .tema-img{
+        width:450px;
+
+        padding: 25px 30px;
+    }
+}
+@media screen and (max-width:899px){
+    .tema-img{
+        width:400px;
+
+        padding:25px 20px;
+    }
+}
+@media screen and (max-width:799px){
+    .pag-temas{
+        padding-bottom:15px;
+    }
+    .tema-img{
+        width:450px;
+
+        padding: 25px 20px 10px 20px;
+    }
+}
+@media screen and (max-width:460px){
+    .tema-img{
+        width:400px;
+    }
+}
+@media screen and (max-width:390px){
+    .tema-img{
+        width:350px;
+    }
+}
+@media screen and (max-width:340px){
+    .tema-img{
+        width:300px;
+    }
+}
+@media screen and (max-width:275px){
+    .tema-img{
+        width:250px;
+    }
+}
