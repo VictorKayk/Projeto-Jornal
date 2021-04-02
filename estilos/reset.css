@@ -1,3 +1,37 @@
+@charset "UTF-8";
+
+/*Fontes*/
+@font-face{ /*Fonte Arkhip*/
+    font-family: Arkhip;
+    src:url(../fontes/Arkhip/Arkhip-Regular.otf) format('opentype'), url(../fontes/Arkhip/Arkhip-Regular.ttf) format('truetype');
+}
+@font-face{ /*Fonte be-vietnam*/
+    font-family: "be-vietnam";
+    src:url(../fontes/be-vietnam/BeVietnam-Regular.ttf) format('truetype');
+}
+
+
+
+
+/*Variaveis*/
+:root{
+    --cor-principal: #201a1e;
+    --cor-secundaria: #151015
+}
+
+/*Configurações globais*/
+*{
+    box-sizing:border-box;
+}
+
+/*Retirando a barra lateral na responsividade*/
+html,body{
+    overflow-x:hidden;
+}
+
+
+
+/*CSS Reset*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
