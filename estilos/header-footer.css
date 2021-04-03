@@ -61,6 +61,22 @@
         width:200px;
     }
 } 
+@media screen and (max-width:375px){ /*Responsividade do logo (cabeçalho), quando chega no tamanho de 375px*/
+    .logo-img-header-hermes{ /*Configurando o tamanho do logo Hermes (cabeçalho)*/
+        width: 330px;
+    }
+    .logo-img-header-diary{ /*Configurando o tamanho do logo Diary (cabeçalho)*/
+        width:180px;
+    }
+}
+@media screen and (max-width:300px){ /*Responsividade do logo (cabeçalho), quando chega no tamanho de 300px*/
+    .logo-img-header-hermes{ /*Configurando o tamanho do logo Hermes (cabeçalho)*/
+        width:280px;
+    }
+    .logo-img-header-diary{ /*Configurando o tamanho do logo Diary (cabeçalho)*/
+        width:150px;
+    }
+}
 
 /*Configurando o cabeçalho na parte dos links de navegação*/
 .header-nav{ /*Links de navegação do cabeçalho*/
@@ -199,6 +215,14 @@
         width:140px;
     }
 }
+@media screen and (max-width:300px){
+    .logo-img-footer-hermes{
+        width: 250px;
+    }
+    .logo-img-footer-diary{
+        width: 130px;
+    }
+}
 
 /*Configuração dos links de redes sociais*/
 .footer-redes{ /*Conteiner dos links das redes sociais*/
@@ -211,6 +235,11 @@
 }
 .img-redes{ /*Configurando o tamanho das imagens de redes sociais*/
     width:40px;
+
+    transition:all 0.2s;
+}
+.img-redes:hover{ /*Configurando o quanto as imagens das redes sociais vão aumentar, quando passarem o mouse por cima*/
+    transform:scale(1.10) ;
 }
 .img-redes-list{ /*Lista para os links das redes socias*/
     display:flex;
