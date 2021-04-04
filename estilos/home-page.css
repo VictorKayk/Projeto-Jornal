@@ -18,12 +18,12 @@
 .noticia{ /*Conteiner de cada noticia*/
     display:flex;
 
-    align-items:flex-start;
+    align-items:center;
 
     margin:30px 0px 0px 20px;
 }
 .noticia-img{ /*Configurando o tamanho da imagem da noticia*/
-    width:300px;
+    width:270px;
     height:200px;
 
     transition: all 0.3s;
@@ -48,16 +48,20 @@
 }
 .titulo-noticia{ /*Configurando o titulo da noticia*/
     font-family:Arkhip;
-    font-size:2em;
+    font-size:1.7em;
 
     color:#201a1e;
 
     padding-bottom:20px;
+
+    max-width:364px;
 }
 .descrição-noticia{ /*Configurando a descrição das noticias*/
     font-family:"be-vietnam";
 
     color: #3c3439;
+
+    max-width:364px;
 }
 
 
