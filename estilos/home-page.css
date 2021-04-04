@@ -2,6 +2,7 @@
 
     Mural de lembretes:
     ° Fazer o modelo de noticias na pagina principal
+    ° Fazer a responsividade do modelo de noticias
     ° Fazer o modelo das moedas na pagina principal
 
 
@@ -13,18 +14,20 @@
 .noticias-conteiner{ /*Background das noticias*/
     display:flex;
 
+    justify-content:center;
     flex-wrap:wrap;
 }
 .noticia{ /*Conteiner de cada noticia*/
     display:flex;
 
+    flex-wrap:wrap;
     align-items:center;
 
-    margin:30px 0px 0px 20px;
+    margin:30px 0px 25px 20px;
 }
 .noticia-img{ /*Configurando o tamanho da imagem da noticia*/
     width:270px;
-    height:200px;
+    height:210px;
 
     transition: all 0.3s;
 }
@@ -54,15 +57,29 @@
 
     padding-bottom:20px;
 
-    max-width:364px;
+    max-width:360px;
 }
 .descrição-noticia{ /*Configurando a descrição das noticias*/
     font-family:"be-vietnam";
 
     color: #3c3439;
 
-    max-width:364px;
+    max-width:360px;
 }
+.linha-horizontal-grupo{ /*Configurando as linhas horizontais que aparecerão em "grupo"*/
+    width: 95%;
+
+    margin:0 auto;
+
+}
+.linha-horizontal-individual{ /*Configurando as linhas horizontais que aparecerão "individualmente"*/
+    display:none;
+
+    width:95%;
+
+    margin:0 auto;
+}
+
 
 
 
