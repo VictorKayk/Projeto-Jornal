@@ -1,9 +1,8 @@
 /*
 
     Mural de lembretes:
-    ° Fazer o modelo de noticias na pagina principal
-    ° Fazer a responsividade do modelo de noticias
     ° Fazer o modelo das moedas na pagina principal
+    ° Fazer a responsividade do modelo das moedas
 
 
 */
@@ -15,19 +14,21 @@
     display:flex;
 
     justify-content:center;
+    align-items:center;
     flex-wrap:wrap;
 }
 .noticia{ /*Conteiner de cada noticia*/
     display:flex;
 
     flex-wrap:wrap;
+    justify-content: center;
     align-items:center;
 
-    margin:30px 0px 25px 20px;
+    margin:30px 10px 25px 10px;
 }
 .noticia-img{ /*Configurando o tamanho da imagem da noticia*/
     width:270px;
-    height:210px;
+    height:170px;
 
     transition: all 0.3s;
 }
@@ -79,11 +80,82 @@
 
     margin:0 auto;
 }
+.tela-grande{ /*Configurando as linhas horizontais que aparecerão nas "telas grandes"*/
+    display:none;
 
+    width: 95%;
 
+    margin:0 auto;
+}
+
+/*Configurando a responsividade do modelo de noticias*/
+@media screen and (min-width:2009px){ /*Responsividade da pagina de temas, antes de chegar no tamanho de 2009px*/
+    .linha-horizontal-grupo{ /*Configurando para sumir as linhas horizontais*/
+        display:none;
+    }
+    .tela-grande{ /*Configurando para aparecer as linhas horizontais*/
+        display: block;
+    }
+}
+@media screen and (max-width:2008px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 2009px*/
+    .linha-horizontal-grupo{ /*Configurando para aparecer as linhas horizontais*/
+        display:block;
+    }
+    .linha-horizontal-individual{ /*Configurando para sumir as linhas horizontais*/
+        display:none;
+    }
+}
+@media screen and (max-width:1339px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 1339px*/
+    .noticia{ /*Configurando para deixar as noticias em coluna*/
+        flex-direction:column;
+    }
+    .noticia-img{ /*Configurando o tamanho das imagens*/
+        width:350px;
+        height: 250px;
+    }
+    .tema-noticia{ /*Configurando o espaçamento superior do tema de noticia*/
+        padding-top:10px;
+    }
+}
+@media screen and (max-width:799px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 799px*/
+    .noticia{ /*Configurando para deixar as noticias em linha*/
+        flex-direction:row;
+    }
+    .tema-noticia{ /*Configurando o espaçamento superior do tema de noticia*/
+        padding-top:0px;
+    }
+    .linha-horizontal-grupo{ /*Configurando para aparecer as linhas horizontais*/
+        display:block;
+    }
+    .linha-horizontal-individual{ /*Configurando para aparecer as linhas horizontais*/
+        display:block;
+    }
+}
+@media screen and (max-width:749px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 749px*/
+    .noticia{ /*Configurando para que os Flex Itens não quebrem de linha*/
+        flex-wrap:nowrap;
+    }
+}
+@media screen and (max-width:650px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 650px*/
+    .noticia{ /*Configurando para que os Flex Itens quebrem de linha*/
+        flex-wrap:wrap;
+    }
+}
+@media screen and (max-width:365px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 365x*/
+    .noticia-img{ /*Configurando o tamanho das imagens*/
+        width:270px;
+        height: 170px;
+    }
+}
 
 
 /*Configuração das moedas*/
+
+
+/*Configurando a responsividade do modelo de noticias*/
+
+
+
 
 
 
