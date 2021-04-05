@@ -149,12 +149,64 @@
 }
 
 
+
+
 /*Configuração das moedas*/
+.economia{ /*Configurando o espaçamento do titulo economia*/
+    padding:75px 0px 25px 10px;
+}
+.moedas-bg{ /*Configurando o background da parte das moedas*/
+    width:100%;
+    background-image:url(../imagens/Economia/Economia_background.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.moedas{ /*Configurando o conteiner que as moedas ficaração*/
+    display:flex;
 
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.moeda-individual{ /*Configurando o conteiner individual das moedas*/
+    display:flex;
 
-/*Configurando a responsividade do modelo de noticias*/
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 
+    margin:60px 20px;
+}
+.moeda-img{ /*Configurando o tamanho das imagens das moedas*/
+    width:150px;
+}
+.moeda-informação{ /*Configurando o conteiner das informações das moedas*/
+    display:flex;
 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family:Arkhip;
+
+    margin-top:20px;
+}
+.moeda-informação h3{ /*Configurando o nome da moedas*/
+    font-size: 2em;
+
+    color:white;
+}
+.moeda-informação p{ /*Configurando as informações da moeda*/
+    font-size:2.5em;
+
+    color:white;
+}
+.moeda-roxo{ /*Pintando de roxo algumas partes das configurações da moeda*/
+    color: indigo;
+}
+.moeda-sub{ /*Definindo um tamanho diferente para uma parte da informações da moedas*/
+    font-size: 1rem;
+}
 
 
 
@@ -169,7 +221,7 @@
 
     background-color: var(--cor-principal);
 
-    margin:50px 0px;
+    margin:75px 0px;
 }
 .tema-img{ /*Configuração das imagens dos temas*/
     width:400px;
