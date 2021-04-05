@@ -106,6 +106,9 @@
     }
 }
 @media screen and (max-width:1339px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 1339px*/
+    .noticias-conteiner{ /*Espaçando as noticias*/
+        justify-content: space-evenly;
+    }
     .noticia{ /*Configurando para deixar as noticias em coluna*/
         flex-direction:column;
     }
@@ -118,6 +121,9 @@
     }
 }
 @media screen and (max-width:799px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 799px*/
+    .noticias-conteiner{ /*Centralizando as noticias*/
+        justify-content: center;
+    }
     .noticia{ /*Configurando para deixar as noticias em linha*/
         flex-direction:row;
     }
