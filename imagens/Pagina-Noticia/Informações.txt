@@ -1,0 +1,16 @@
+Fontes :
+
+Titulo : Arkhip
+Cor _ #ffeefa
+
+Subtitulo & Infos : Be Vietnam
+Cor _ #483f45
+
+Texto : Crimsom text Regular
+Cor _ #2d171e
+
+Texto Hyper_Link : Crimsom text Italic
+Cor _ #63384f
+
+Ps : As novas fontes já foram enviadas
+
