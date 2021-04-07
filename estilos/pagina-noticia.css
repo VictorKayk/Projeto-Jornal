@@ -9,7 +9,7 @@
 
 /*Configuração da pagina de noticias*/
 /*Configurando o titulo da noticia*/
-.titulo-noticia-bg{
+.titulo-noticia-bg{ /*Configurando o background do titulo*/
     display:flex;
 
     justify-content:Center;
@@ -24,19 +24,17 @@
     background-size:cover;
     background-repeat:no-repeat;
 }
-.titulo-noticia{
+.titulo-noticia{ /*Configurando o titulo da noticia*/
     padding:65px 35px 60px 35px;
 
     font-size:3.5em;
     font-family:Arkhip;
 
-    text-align:justify;
-
     color:#ffeefa;
 }
 
 /*Configurando a descrição da noticia*/
-.descrição-noticia-bg{
+.descrição-noticia-bg{ /*Configurando o background da descrição*/
     display:flex;
 
     flex-direction:column;
@@ -46,7 +44,7 @@
 
     margin: 10px 70px 60px 70px;
 }
-.descrição-noticia{
+.descrição-noticia{ /*Configurando a descrição da noticia*/
     text-align:justify;
 
     font-family:'be-vietnam';
@@ -56,7 +54,9 @@
 
     color: #483f45;
 }
-.tema-noticia{
+
+/*Configurando o tema da noticia*/
+.tema-noticia{ /*Configurando o tema*/
     align-self:flex-start;
 
     font-family:'be-vietnam';
@@ -67,7 +67,7 @@
 }
 
 /*Informações do autor*/
-.informações-autor-noticia{
+.informações-autor-noticia{ /*Configuração do background das informações do autor*/
     display:flex;
 
     flex-wrap:wrap;
@@ -77,51 +77,53 @@
 
     margin: 0px 70px 10px 70px;
 }
-.infor-autor{
+.infor-autor{ /*Configuração das informações do autor*/
     display:flex;
 
     align-items: center;
 
     padding-right:30px;
 }
-.autor{
+.autor{ /*Configuração da imagem do autor*/
     width:80px;
 }
-.informações{
+.informações{ /*Configuração da informação*/
     font-family:'be-vietnam';
 
     color:#483f45;
 
     padding-left:13px;
 }
-.texto-autor{
+.texto-autor{ /*Configuração do nome do autor*/
     font-size:1.1em;
 
     padding-bottom:5px;
 }
-.hora-autor{
+.hora-autor{ /*Configuração da hora das noticia*/
     font-size:0.9em;
 }
-.redes{
+.redes{ /*Configuração do background das redes sociais*/
     display:flex;
 
     align-items:center;
 
     padding-left:10px;
 }
-.redes li{
+.redes li{ /*Definindo o espaçamento dos itens de rede social*/
     padding: 0px 13px;
 }
-.rede-social-img{
+.rede-social-img{ /*Configurando o tamanho das imagens de rede sociais*/
     width:40px;
 
     transition:all 0.2s;
 
 }
-.rede-social-img:hover{
+.rede-social-img:hover{ /*Configuração de quando se passa o mouse por cima da imagem das redes*/
     transform:scale(1.10) ;
 }
-.linha-horizontal{
+
+/*Configurando a linha horizontal*/
+.linha-horizontal{ /*Configurando a linha*/
     width:90%;
 
     margin:40px auto;
