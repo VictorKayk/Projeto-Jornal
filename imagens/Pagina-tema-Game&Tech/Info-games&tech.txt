@@ -1,0 +1,8 @@
+Titulo "Games & Tech" :
+
+Fonte : Arkhip
+Cor : #f7e7f3
+
+Noticias :
+
+Formato generico da home
