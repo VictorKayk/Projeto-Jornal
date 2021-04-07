@@ -46,7 +46,7 @@
         padding: 65px 20px 60px 20px;
     }
 }
-@media screen and (max-width:400px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 400px*/
+@media screen and (max-width:425px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 400px*/
     .titulo-noticia{ /*Configurando o titulo da noticia*/
         font-size:2em;
     }
