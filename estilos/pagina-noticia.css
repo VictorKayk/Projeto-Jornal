@@ -48,12 +48,17 @@
 }
 @media screen and (max-width:425px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 400px*/
     .titulo-noticia{ /*Configurando o titulo da noticia*/
+        font-size:2.2em;
+    }
+}
+@media screen and (max-width:375px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 375px*/
+    .titulo-noticia{ /*Configurando o titulo da noticia*/
         font-size:2em;
     }
 }
 @media screen and (max-width:320px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 320px*/
     .titulo-noticia{ /*Configurando o titulo da noticia*/
-        font-size:1.7em;
+        font-size:1.8em;
     }
 }
 @media screen and (max-width:250px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 250px*/
@@ -62,6 +67,8 @@
     }
 }
 
+
+/*Configurando a descrição da noticia*/
 /*Configurando o tema da noticia*/
 .tema-noticia{ /*Configurando o tema*/
     align-self:flex-start;
@@ -72,8 +79,7 @@
 
     padding-bottom:15px;
 }
-
-/*Configurando a descrição da noticia*/
+/*Configurando a descrição*/
 .descrição-noticia-bg{ /*Configurando o background da descrição*/
     display:flex;
 
@@ -93,6 +99,28 @@
     line-height: 1.5em;
 
     color: #483f45;
+}
+
+/*Configurando a responsividade da descrição da noticia*/
+@media screen and (max-width:899px){ /*Configurando a descrição, quando a tela chega no tamanho de 899px*/
+    .descrição-noticia-bg{
+        margin: 10px 50px 60px 50px;
+    }
+}
+@media screen and (max-width:700px){ /*Configurando a descrição, quando a tela chega no tamanho de 700px*/
+    .descrição-noticia-bg{
+        margin: 10px 40px 60px 40px;
+    }
+}
+@media screen and (max-width:400px){ /*Configurando a descrição, quando a tela chega no tamanho de 400px*/
+    .descrição-noticia-bg{
+        margin: 10px 35px 60px 35px;
+    }
+}
+@media screen and (max-width:230px){ /*Configurando a descrição, quando a tela chega no tamanho de 230px*/
+    .descrição-noticia-bg{
+        margin: 10px 30px 60px 30px;
+    }
 }
 
 /*Informações do autor*/
