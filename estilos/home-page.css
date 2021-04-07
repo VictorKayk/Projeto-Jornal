@@ -65,6 +65,9 @@
 
     max-width:360px;
 }
+.titulo-noticia:hover, .descrição-noticia:hover{ /*Configurando quando passa o mouse por cima do titulo e descrição*/
+    color:#884151;
+}
 .linha-horizontal-grupo{ /*Configurando as linhas horizontais que aparecerão em "grupo"*/
     width: 95%;
 
