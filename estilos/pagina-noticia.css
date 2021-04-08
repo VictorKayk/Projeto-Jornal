@@ -1,7 +1,6 @@
 /*
 
     Mural de lembretes:
-    ° Responsividade do titulo, descrição e autor
 
 
 */
@@ -109,17 +108,17 @@
 }
 @media screen and (max-width:700px){ /*Configurando a descrição, quando a tela chega no tamanho de 700px*/
     .descrição-noticia-bg{
-        margin: 10px 40px 60px 40px;
+        margin: 10px 40px 50px 40px;
     }
 }
 @media screen and (max-width:400px){ /*Configurando a descrição, quando a tela chega no tamanho de 400px*/
     .descrição-noticia-bg{
-        margin: 10px 35px 60px 35px;
+        margin: 10px 35px 50px 35px;
     }
 }
 @media screen and (max-width:230px){ /*Configurando a descrição, quando a tela chega no tamanho de 230px*/
     .descrição-noticia-bg{
-        margin: 10px 30px 60px 30px;
+        margin: 10px 30px 50px 30px;
     }
 }
 
@@ -151,10 +150,12 @@
 
     padding-left:13px;
 }
-.texto-autor{ /*Configuração do nome do autor*/
+.nome-autor{ /*Configuração do nome do autor*/
     font-size:1.1em;
 
     padding-bottom:5px;
+
+    line-height:1.3em;
 }
 .hora-autor{ /*Configuração da hora das noticia*/
     font-size:0.9em;
@@ -178,6 +179,55 @@
 .rede-social-img:hover{ /*Configuração de quando se passa o mouse por cima da imagem das redes*/
     transform:scale(1.10) ;
 }
+
+/*Configuração da responsividade das informações do autor da noticia*/
+@media screen and (max-width: 682px){ /*Configurando a responsividade, quando a tela chega no tamanho de 682px*/
+    .informações-autor-noticia{ /*Configurando o conteiner das informações do autor*/
+        flex-direction:column;
+
+        margin: 0px 55px 10px 55px;
+    }
+    .infor-autor{ /*Retirando o espaçamento do 2° conteiner de  informações do autor*/
+        padding-right:0px;
+    }
+    .redes{ /*Definindo o espaçamento e margem das imagens de rede social*/
+        margin-top:15px;
+
+        padding-left:0px;   
+    }
+}
+@media screen and (max-width:480px){ /*Configurando a responsividade, quando a tela chega no tamanho de 480px*/
+    .informações-autor-noticia{ /*Configurando o espaçamento do conteiner das informações do autor*/
+        margin: 0px 45px 10px 45px;
+    }
+    .infor-autor{ /*Definindo a direção do 2° conteiner de informações do autor*/
+        flex-direction:column;
+    }
+    .informações{ /*Configurando conteiner de texto das informações*/
+        padding-left:0px;
+
+        text-align:center;
+    }
+    .autor{ /*Configurnado a margim da imagem do autor*/
+        margin-bottom:20px;
+    }
+    .nome-autor{ /*Configurando o espaçamento do nome do autor*/
+        padding-bottom:7px;
+    }
+    .redes{ /*Configurando a margim das imagens de redes sociais*/
+        margin-top:20px;
+    }
+}
+@media screen and (max-width:300px){ /*Configurando a responsividade, quando a tela chega no tamanho de 300px*/
+    .informações-autor-noticia{ /*Configurando o espaçamento do conteiner das informações do autor*/
+        margin: 0px 40px 10px 40px;
+    }
+}
+@media screen and (max-width:250px){ /*Configurando a responsividade, quando a tela chega no tamanho de 250px*/
+    .informações-autor-noticia{ /*Configurando o espaçamento do conteiner das informações do autor*/
+        margin: 0px 35px 10px 35px;
+    }
+} 
 
 /*Configurando a linha horizontal*/
 .linha-horizontal{ /*Configurando a linha*/
