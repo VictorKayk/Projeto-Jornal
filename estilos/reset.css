@@ -9,7 +9,14 @@
     font-family: "be-vietnam";
     src:url(../fontes/be-vietnam/BeVietnam-Regular.ttf) format('truetype');
 }
-
+@font-face{ /*Fonte Crimson Text*/
+	font-family: CrimsonText;
+	src: url(../fontes/crimsom-text/CrimsonText-Regular.ttf) format('truetype');
+}
+@font-face{ /*Fonte Crimson Text Italic*/
+	font-family: CrimsonText_italic;
+	src: url(../fontes/crimsom-text/CrimsonText-Italic.ttf) format('truetype');
+}
 
 
 
