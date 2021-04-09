@@ -209,7 +209,7 @@
     color:white;
 }
 .moeda-roxo{ /*Pintando de roxo algumas partes das configurações da moeda*/
-    color: indigo;
+    color: #c19dbe;
 }
 .moeda-sub{ /*Definindo um tamanho diferente para uma parte da informações da moedas*/
     font-size: 1rem;

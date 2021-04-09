@@ -1,8 +1,9 @@
 /*
 
     Mural de lembretes:
-    ° Responsividade da materia
     ° Ver mais noticias
+    ° Responsividade do ver também
+    ° Documentação do codigo
 
 
 */
@@ -25,7 +26,7 @@
     background-size:cover;
     background-repeat:no-repeat;
 }
-.titulo-noticia{ /*Configurando o titulo da noticia*/
+.titulo-noticia-materia{ /*Configurando o titulo da noticia*/
     padding:65px 35px 60px 35px;
 
     font-size:3.5em;
@@ -36,34 +37,34 @@
 
 /*Configurando a responsividade do titulo da noticia*/
 @media screen and (max-width:850px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 850px*/
-    .titulo-noticia{ /*Configurando o titulo da noticia*/
+    .titulo-noticia-materia{ /*Configurando o titulo da noticia*/
         font-size:3em;
     }
 }
 @media screen and (max-width:550px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 550px*/
-    .titulo-noticia{ /*Configurando o titulo da noticia*/
+    .titulo-noticia-materia{ /*Configurando o titulo da noticia*/
         font-size:2.5em;
 
         padding: 65px 20px 60px 20px;
     }
 }
 @media screen and (max-width:425px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 400px*/
-    .titulo-noticia{ /*Configurando o titulo da noticia*/
+    .titulo-noticia-materia{ /*Configurando o titulo da noticia*/
         font-size:2.2em;
     }
 }
 @media screen and (max-width:375px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 375px*/
-    .titulo-noticia{ /*Configurando o titulo da noticia*/
+    .titulo-noticia-materia{ /*Configurando o titulo da noticia*/
         font-size:2em;
     }
 }
 @media screen and (max-width:320px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 320px*/
-    .titulo-noticia{ /*Configurando o titulo da noticia*/
+    .titulo-noticia-materia{ /*Configurando o titulo da noticia*/
         font-size:1.8em;
     }
 }
 @media screen and (max-width:250px){ /*Configurando a responsividade do titulo da noticia, quando a tela atinge o tamanho de 250px*/
-    .titulo-noticia{ /*Configurando o titulo da noticia*/
+    .titulo-noticia-materia{ /*Configurando o titulo da noticia*/
         font-size:1.5em;
     }
 }
@@ -71,7 +72,7 @@
 
 /*Configurando a descrição da noticia*/
 /*Configurando o tema da noticia*/
-.tema-noticia{ /*Configurando o tema*/
+.tema-noticia-materia{ /*Configurando o tema*/
     align-self:flex-start;
 
     font-family:'be-vietnam';
@@ -91,7 +92,7 @@
 
     margin: 10px 70px 60px 70px;
 }
-.descrição-noticia{ /*Configurando a descrição da noticia*/
+.descrição-noticia-materia{ /*Configurando a descrição da noticia*/
     text-align:justify;
 
     font-family:'be-vietnam';
@@ -117,7 +118,7 @@
     .descrição-noticia-bg{
         margin: 10px 35px 50px 35px;
     }
-    .descrição-noticia{ /*Configurando a descrição da noticia*/
+    .descrição-noticia-materia{ /*Configurando a descrição da noticia*/
         font-size:1.2em;
     
         line-height: 1.4em;
@@ -284,87 +285,96 @@
 
 }
 /*Configurando a responsividade da materia*/
-@media screen and (max-width:1150px){
-    .noticia-bg{
+@media screen and (max-width:1150px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 1150px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 180px 60px 180px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:650px;
         height:400px;   
     }
 }
-@media screen and (max-width:1000px){
-    .noticia-bg{
+@media screen and (max-width:1000px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 1000px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 160px 60px 160px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:550px;
         height:350px;   
     }
 }
-@media screen and (max-width:850px){
-    .noticia-bg{
+@media screen and (max-width:850px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 850px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 130px 60px 130px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:500px;
         height:320px;   
     }
 }
-@media screen and (max-width:760px){
-    .noticia-bg{
+@media screen and (max-width:760px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 760px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 100px 60px 100px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:400px;
         height:280px;   
     }
 }
-@media screen and (max-width:570px){
-    .noticia-bg{
+@media screen and (max-width:570px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 570px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 75px 60px 75px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:350px;
         height:250px;   
 
         margin: 50px 0px;
     }
 }
-@media screen and (max-width:490px){
-    .noticia-bg{
+@media screen and (max-width:490px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 490px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia) e o tamanho da fonte*/
         font-size:1.28em;
 
         margin: 10px 60px 60px 60px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:300px;
         height:220px;   
     }
 }
-@media screen and (max-width:390px){
-    .noticia-bg{
+@media screen and (max-width:390px){ /*Configurando a responsivida da materia (noticia, quando chega no tamanho de 390px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 5px 40px 60px 40px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:250px;
         height:200px;   
     }
 }
-@media screen and (max-width:300px){
-    .noticia-bg{
+@media screen and (max-width:300px){ /*Configurando a responsivida da materia (noticia, quando chega no tamanho de 300px*/
+    .noticia-bg{ /*Configurando o espaçamento da materia (noticia) e o tamanho da fonte*/
         font-size:1.23em;
 
         margin: 3px 25px 60px 25px;
     }
-    .imagem-noticia{
+    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:220px;
         height:180px;   
     }
 }
 
 
+/*Configurando o veja-também*/
+.veja-também-bg{ /*Configurando o background do vejá também*/
+    margin:70px 0px;
+}
+.veja-também{ /*Configurando o veja também*/
+    font-size:2.5em;
 
+    margin-left:20px;
+    margin-bottom:20px;
+}
 
 
 
