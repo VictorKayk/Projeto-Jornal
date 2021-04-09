@@ -9,6 +9,18 @@
 */
 
 
+
+
+
+/*Configurando o main*/
+main{ /*Configurando o main*/
+    margin-bottom:70px;
+}
+
+
+
+
+
 /*Configuração da pagina de noticias*/
 /*Configurando o titulo da noticia*/
 .titulo-noticia-bg{ /*Configurando o background do titulo*/
@@ -366,15 +378,31 @@
 
 
 /*Configurando o veja-também*/
-.veja-também-bg{ /*Configurando o background do vejá também*/
+.veja-também-conteiner{ /*Configurando o background do vejá também*/
     margin:70px 0px;
 }
 .veja-também{ /*Configurando o veja também*/
     font-size:2.5em;
 
-    margin-left:20px;
-    margin-bottom:20px;
+    margin-left:55px;
+    margin-bottom:30px;
 }
+/*Configurando a responsividade do veja também*/
+@media screen and (max-width:450px){
+    .veja-também{
+        font-size:2.3em;
+
+        margin-left:30px;
+    }
+}
+@media screen and (max-width:300px){
+    .veja-também{
+        font-size:2.2em;
+
+        margin-left:25px;
+    }
+}
+
 
 
 
