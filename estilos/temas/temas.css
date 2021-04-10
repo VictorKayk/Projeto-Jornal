@@ -8,9 +8,9 @@
 
 
 
-
+/*Configruando o padrão de temas*/
 /*Configurando o nome dos temas*/
-.nome-tema-bg{
+.nome-tema-bg{ /*Configurando o fundo do nome do tema (Imagem adicionada em cada estilo de tema individual)*/
     display:flex;
 
     justify-content:flex-start;
@@ -19,13 +19,12 @@
     min-height:370px;
     width:100%;
 
-    background-image:url(../../imagens/pagina-temas/tema-game-tech/Banner_Game_Tech.png);
     background-size:cover;
     background-repeat:no-repeat;
 
     margin-bottom: 25px;
 }
-.nome-tema{
+.nome-tema{ /*Configurando o nome do tema*/
     padding:40px 35px 65px 60px;
 
     font-family:Arkhip;

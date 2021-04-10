@@ -10,8 +10,17 @@
 
 
 
+/*Configurando o padrão dos temas*/
+.nome-tema-bg{ /*Configurando a imagem de fundo do tema*/
+    background-image:url(../../imagens/pagina-temas/tema-game-tech/Banner_Game_Tech.png);
+}
+
+
+
+
+/*Configurando o individual do tema*/
 /*Configurando os proximos lançamentos*/
-.proximos-lançamentos{
+.proximos-lançamentos{ /*Configurando o fundo dos proximos lançamentos*/
     width: 100%;
 
     background-image:url(../../imagens/pagina-temas/tema-game-tech/Lançamentos/Lançamento_games.png);
@@ -20,14 +29,14 @@
 
     margin:60px 0px 70px 0px;
 }
-.lançamentos-list{
+.lançamentos-list{ /*Configurando a lista de lançamentso*/
     display:flex;
     
     flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
 }
-.lançamentos{
+.lançamentos{ /*Configurando cada lançamento individual*/
     display:flex;
 
     flex-direction: column;
@@ -36,13 +45,13 @@
 
     margin:50px 0px;
 }
-.img-lançamentos{
+.img-lançamentos{ /*Configurando a imagem de lançamento*/
     width:270px;
 }
-.nome-data-lançamento{
+.nome-data-lançamento{ /*Configurando o conteiener com o nome e data de lançamento*/
     margin: 15px 0px;
 }
-.nome-lançamento{
+.nome-lançamento{ /*Configurando o nome do lançamento*/
     font-family:'be-vietnam';
     font-size: 1.5em;
 
@@ -50,7 +59,7 @@
 
     text-align: center;
 }
-.data-lançamento{
+.data-lançamento{ /*Configurando a data do lançamento*/
     font-family:Arkhip;
     font-size: 2.1em;
 
