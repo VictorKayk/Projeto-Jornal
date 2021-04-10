@@ -112,6 +112,8 @@
     justify-content: center;
 
     width:200px;
+
+    text-align:center;
 }
 .border{ /*Classe dos itens que irão receber as bordas*/
     border-right: 5px solid var(--cor-principal);
@@ -270,6 +272,8 @@
     padding:0px 20px;
     padding-top:40px;
     padding-bottom:80px;
+
+    text-align:center;
 }
 .footer-list li a, .footer-list li a:link, .footer-list li a:checked, .footer-list li a:active{ /*Configuração dos links de navegação*/
     color:white;
@@ -285,12 +289,7 @@
 
 /*Responsividade da barra de navegação do rodapé*/
 @media screen and (max-width:501px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 501px*/
-    .no-padding-footer li{
-        padding-top:0px;
-    }
-}
-@media screen and (max-width:439px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 382px*/
-    .no-padding-footer2 li{
+    .no-padding-footer li, .no-padding-footer2 li{
         padding-top:0px;
     }
 }
@@ -319,4 +318,6 @@
     color: white;
 
     padding:7px;
+
+    text-align: center;
 }

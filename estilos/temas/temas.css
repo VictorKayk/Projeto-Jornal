@@ -34,3 +34,35 @@
 
     color:#f7e7f3;
 }
+
+/*Configurando a responsividade para o nome do tema*/
+@media screen and (max-width:950px){ /*Configurando a responsividade, quando chegar no tamanho de 950px*/
+    .nome-tema{ /*Configurando o espaçamento do nome do tema*/
+        padding:40px 35px 50px 45px;
+    }
+}
+@media screen and (max-width:750px){ /*Configurando a responsividade, quando chegar no tamanho de 9750px*/
+    .nome-tema{ /*Configurando o tamanho do nome do tema*/
+        font-size:4em;
+    }
+}
+@media screen and (max-width:600px){ /*Configurando a responsividade, quando chegar no tamanho de 600px*/
+    .nome-tema{ /*Configurando o espaçamento do nome do tema*/
+        padding:40px 35px 40px 40px;
+    }
+}
+@media screen and (max-width:400px){ /*Configurando a responsividade, quando chegar no tamanho de 400px*/
+    .nome-tema{ /*Configurando o espaçamento do nome do tema*/
+        padding:40px 35px 40px 35px;
+    }
+}
+@media screen and (max-width:350px){ /*Configurando a responsividade, quando chegar no tamanho de 350px*/
+    .nome-tema{ /*Configurando o tamanho do nome do tema*/
+        font-size:3.5em;
+    }
+}
+@media screen and (max-width:300px){ /*Configurando a responsividade, quando chegar no tamanho de 300px*/
+    .nome-tema{ /*Configurando o tamanho do nome do tema*/
+        font-size:3em;
+    }
+}
