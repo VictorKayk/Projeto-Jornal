@@ -1,9 +1,6 @@
 /*
 
     Mural de lembretes:
-    ° Ver mais noticias
-    ° Responsividade do ver também
-    ° Documentação do codigo
 
 
 */
@@ -382,7 +379,7 @@ main{ /*Configurando o main*/
     margin:70px 0px;
 }
 .veja-também{ /*Configurando o veja também*/
-    font-family:Arkhip;
+    font-family:'be-vietnam';
     font-size:2.5em;
 
     margin-left:55px;

@@ -164,6 +164,7 @@
 }
 .moedas-bg{ /*Configurando o background da parte das moedas*/
     width:100%;
+    
     background-image:url(../imagens/Economia/Economia_background.png);
     background-size: cover;
     background-repeat:no-repeat ;

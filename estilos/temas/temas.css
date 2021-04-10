@@ -1,0 +1,37 @@
+/*
+
+    Mural de lembretes:
+
+
+*/
+
+
+
+
+
+/*Configurando o nome dos temas*/
+.nome-tema-bg{
+    display:flex;
+
+    justify-content:flex-start;
+    align-items: flex-end;
+
+    min-height:370px;
+    width:100%;
+
+    background-image:url(../../imagens/pagina-temas/tema-game-tech/Banner_Game_Tech.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    margin-bottom: 25px;
+}
+.nome-tema{
+    padding:40px 35px 65px 60px;
+
+    font-family:Arkhip;
+    font-size: 5em;
+
+    line-height:1.2em;
+
+    color:#f7e7f3;
+}

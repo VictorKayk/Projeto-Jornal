@@ -1,0 +1,62 @@
+/*
+
+    Mural de lembretes:
+    ° Configurar a responsvidade
+    ° Colocar borda na imagem
+
+
+*/
+
+
+
+
+/*Configurando os proximos lançamentos*/
+.proximos-lançamentos{
+    width: 100%;
+
+    background-image:url(../../imagens/pagina-temas/tema-game-tech/Lançamentos/Lançamento_games.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    margin:60px 0px 70px 0px;
+}
+.lançamentos-list{
+    display:flex;
+    
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.lançamentos{
+    display:flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin:50px 0px;
+}
+.img-lançamentos{
+    width:270px;
+}
+.nome-data-lançamento{
+    margin: 15px 0px;
+}
+.nome-lançamento{
+    font-family:'be-vietnam';
+    font-size: 1.5em;
+
+    color:#f7e7f3;
+
+    text-align: center;
+}
+.data-lançamento{
+    font-family:Arkhip;
+    font-size: 2.1em;
+
+    color:#c19dbe;
+
+    text-align: center;
+
+    padding-top: 10px;
+}
