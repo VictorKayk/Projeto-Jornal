@@ -302,8 +302,8 @@ main{ /*Configurando o main*/
         margin: 10px 180px 60px 180px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:650px;
-        height:400px;   
+        width:700px;
+        height:450px;   
     }
 }
 @media screen and (max-width:1000px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 1000px*/
@@ -311,8 +311,8 @@ main{ /*Configurando o main*/
         margin: 10px 160px 60px 160px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:550px;
-        height:350px;   
+        width:620px;
+        height:380px;   
     }
 }
 @media screen and (max-width:850px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 850px*/
@@ -320,17 +320,17 @@ main{ /*Configurando o main*/
         margin: 10px 130px 60px 130px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:500px;
-        height:320px;   
+        width:550px;
+        height:350px;   
     }
 }
-@media screen and (max-width:760px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 760px*/
+@media screen and (max-width:770px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 760px*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 100px 60px 100px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:400px;
-        height:280px;   
+        width:520px;
+        height:350px;   
     }
 }
 @media screen and (max-width:570px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 570px*/
@@ -338,8 +338,8 @@ main{ /*Configurando o main*/
         margin: 10px 75px 60px 75px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:350px;
-        height:250px;   
+        width:400px;
+        height:280px;   
 
         margin: 50px 0px;
     }
@@ -351,8 +351,8 @@ main{ /*Configurando o main*/
         margin: 10px 60px 60px 60px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:300px;
-        height:220px;   
+        width:360px;
+        height:250px;   
     }
 }
 @media screen and (max-width:390px){ /*Configurando a responsivida da materia (noticia, quando chega no tamanho de 390px*/
@@ -360,19 +360,19 @@ main{ /*Configurando o main*/
         margin: 5px 40px 60px 40px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:250px;
-        height:200px;   
+        width:320px;
+        height:230px;   
     }
 }
-@media screen and (max-width:300px){ /*Configurando a responsivida da materia (noticia, quando chega no tamanho de 300px*/
+@media screen and (max-width:340px){ /*Configurando a responsivida da materia (noticia, quando chega no tamanho de 300px*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia) e o tamanho da fonte*/
         font-size:1.23em;
 
         margin: 3px 25px 60px 25px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
-        width:220px;
-        height:180px;   
+        width:290px;
+        height:200px;   
     }
 }
 
