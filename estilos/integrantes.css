@@ -1,0 +1,64 @@
+/*
+
+    Mural de lembretes:
+
+
+*/
+
+
+
+
+/*Configurando os integrantes*/
+.integrantes{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+}
+.integrante-individual{
+    display:flex;
+
+    justify-content: center;
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    margin:30px 40px;
+}
+.integrante-informação{
+    display:flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.img-integrante{
+    width:160px;
+}
+.informações-integrante{
+    font-family:'be-vietnam';
+    font-size:1.1em;
+
+    margin-left:20px;
+
+    color:#483f45;
+}
+.nome-integrante{
+    font-size:1.8em;
+
+    color:#63384f;
+
+    margin:10px 0px;
+}
+.função-integrante{
+    margin:10px 0px;
+}
+.materias-integrante{
+    margin:10px 0px;
+}
+.redes{ /*Configurando a margim das imagens de redes sociais*/
+    margin-top:20px;
+}
