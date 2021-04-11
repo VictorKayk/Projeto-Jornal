@@ -1,6 +1,7 @@
 /*
 
     Mural de lembretes:
+    ° Fazer o titulo da pagina de integrantes
 
 
 */
@@ -9,7 +10,11 @@
 
 
 /*Configurando os integrantes*/
-.integrantes{
+/*Configurando o titulo da pagina de integrantes*/
+
+
+/*Configurando os integrantes*/
+.integrantes{ /*Configurando o conteiner de todos os integrantes*/
     display: flex;
 
     flex-wrap: wrap;
@@ -17,7 +22,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.integrante-individual{
+.integrante-individual{ /*Configurando o conteiner individual do integrante*/
     display:flex;
 
     justify-content: center;
@@ -25,40 +30,123 @@
 
     flex-wrap:wrap;
 
-    margin:30px 40px;
+    margin:60px 20px;
+
+    min-width:545px;
 }
-.integrante-informação{
+.img-integrante{ /*Configurando a imagem do integrante*/
+    width:160px;
+}
+.integrante-informação{ /*Configurando o conteiner de informações do integrante*/
     display:flex;
 
     flex-direction: column;
+    flex-wrap: wrap;
 
     justify-content: center;
     align-items: center;
 }
-.img-integrante{
-    width:160px;
-}
-.informações-integrante{
+.informações-integrante{ /*Configurando as informações do integrante*/
     font-family:'be-vietnam';
-    font-size:1.1em;
+    font-size:1.05em;
 
     margin-left:20px;
 
     color:#483f45;
 }
-.nome-integrante{
-    font-size:1.8em;
+.informações-integrante a, .informações-integrante a:active, .informações-integrante a:link, .informações-integrante a:checked{ /*Configurando os links das materias escritas pelo integrante*/
+    text-decoration:none;
+    
+    font-family:'be-vietnam';
+    font-size: 1.05em;
+
+    color: #483f45;
+
+    transition: all 0.2;
+}
+.informações-integrante a:hover{ /*Configurnado o que acontece, quando se passa o mouse por cima do links da materia*/
+    font-weight: bold;
+    color: black;
+
+    text-decoration:underline;  
+}
+.nome-integrante{ /*Configurando o nome do integrante*/
+    font-size:1.65em;
 
     color:#63384f;
 
-    margin:10px 0px;
+    margin:13px 0px;
 }
-.função-integrante{
-    margin:10px 0px;
+.função-integrante{ /*Configurando a função do intergrante*/
+    margin:13px 0px;
 }
-.materias-integrante{
-    margin:10px 0px;
+.materias-integrante{ /*Configurando as materias do integrante*/
+    margin:5px 0px;
 }
 .redes{ /*Configurando a margim das imagens de redes sociais*/
     margin-top:20px;
+}
+
+/*Configurando a responsividade dos integrantes*/
+@media screen and (min-width: 2009px){ /*Configurando a responsividade dos integrantes, quando o tamanho da tela é maior que 2009px*/
+    .maria-linha{ /*Deixando visivel a linha de Maria*/
+        display:block;
+    }
+    .thiago-linha{ /*Deixando visivel a linha de Thiago*/
+        display:block;
+    }
+}
+@media screen and (max-width:1186px){ /*Configurnado a responsividade dos integrantes, quando chega no tamanho de 1186px*/
+    .integrante-individual{ /*Configruando o conteiner individual do integrante*/
+        flex-direction:column;
+
+        min-width: 389px;
+    }
+    .informações-integrante{ /*Configurando a informação do integrante*/
+        text-align: center;
+
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:874px){ /*Configurnado a responsividade dos integrantes, quando chega no tamanho de 874px*/
+    .integrante-individual{ /*Configruando o conteiner individual do integrante*/
+        flex-direction:row;
+
+        min-width:545px;
+    }
+    .informações-integrante{ /*Configurando a informação do integrante*/
+        text-align: left;
+
+        margin-left:20px;
+    }
+    .linha-horizontal-individual{ /*Configurando para as linhas individuais aparecerem*/
+        display: block;
+    }
+}
+@media screen and (max-width:605px){ /*Configurnado a responsividade dos integrantes, quando chega no tamanho de 605px*/
+    .integrante-individual{ /*Configruando o conteiner individual do integrante*/
+        flex-direction:column;
+
+        min-width: 389px;
+    }
+    .informações-integrante{ /*Configurando a informação do integrante*/
+        text-align:center;
+
+        margin-left:0px;
+    }
+}
+@media screen and (max-width:399px){ /*Configurnado a responsividade dos integrantes, quando chega no tamanho de 399px*/
+    .img-integrante{ /*Configurando o tamanho da imagem do integrante*/
+        width:130px;
+    }
+    .informações-integrante, .informações-integrante a{ /*Configurando a informação e os links de materia do integrante*/
+        font-size:0.8em;
+        font-weight: bold;
+    }
+    .nome-integrante{ /*Configurando o nome do integrante*/
+        font-weight:normal;
+    }
+    .rede-social-img{ /*Configurando o tamanho dos icones de rede social*/
+        width:35px;
+    }
 }
