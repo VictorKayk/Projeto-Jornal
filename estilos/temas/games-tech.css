@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
 
-    margin:50px 30px;
+    margin:50px 60px;
 }
 .img-lançamentos{ /*Configurando a imagem de lançamento*/
     width:300px;
@@ -74,22 +74,21 @@
 }
 
 /*Configurando a responsividade dos proximos lançametnos*/
-@media screen and (max-width:1096px){ /*Configurando a responsividade, quando chega no tamanho de 1096px*/
-    .lançamentos{ /*Configurando cada lançamento individual*/
-        margin:50px 30px 30px 30px;
+@media screen and (max-width:1679px){
+    .no-margin{
+        margin:0px 60px 50px 60px;
     }
-    .no-margin{ /*Tirando o espaçamento do ultimo lançamento*/
-        margin:0px 30px 50px 30px;
+}
+@media screen and (max-width:1276px){ /*Configurando a responsividade, quando chega no tamanho de 1096px*/
+    .lançamentos{ /*Configurando cada lançamento individual*/
+        margin:50px 60px;
     }
     .img-lançamentos{ /*Tirando o espaçamento da imagem*/
         margin-top:0px;
     }
 }
-@media screen and (max-width:736px){
+@media screen and (max-width:856px){
     .lançamentos{ /*Configurando cada lançamento individual*/
-        margin:50px 30px;
-    }
-    .no-margin{ /*Deixando o espaçamento do ultimo lançamento normal*/
         margin:50px 30px;
     }
     .img-lançamentos{ /*Deixando o espaçametno da imagem normal*/

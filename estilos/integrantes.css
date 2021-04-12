@@ -11,7 +11,9 @@
 
 /*Configurando os integrantes*/
 /*Configurando o titulo da pagina de integrantes*/
-
+.nome-tema-bg{
+    background-image:url(../imagens/integrantes/Banner_Integrantes.png);
+}
 
 /*Configurando os integrantes*/
 .integrantes{ /*Configurando o conteiner de todos os integrantes*/
