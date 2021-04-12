@@ -1,0 +1,86 @@
+/*
+
+    Mural de lembretes:
+
+
+*/
+
+
+
+
+
+/*Configuração padrão dos temas*/
+/*Configurando os proximos lançamentos*/
+.proximos-lançamentos{ /*Configurando o fundo dos proximos lançamentos*/
+    width: 100%;
+
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    margin:60px 0px 70px 0px;
+}
+.lançamentos-list{ /*Configurando a lista de lançamentso*/
+    display:flex;
+    
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.lançamentos{ /*Configurando cada lançamento individual*/
+    display:flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin:50px 60px;
+}
+.img-lançamentos{ /*Configurando a imagem de lançamento*/
+    width:300px;
+
+    margin-top:30px;
+}
+.nome-data-lançamento{ /*Configurando o conteiener com o nome e data de lançamento*/
+    margin: 15px 0px;
+}
+.nome-lançamento{ /*Configurando o nome do lançamento*/
+    font-family:'be-vietnam';
+    font-size: 1.5em;
+
+    color:#f7e7f3;
+
+    text-align: center;
+}
+.data-lançamento{ /*Configurando a data do lançamento*/
+    font-family:Arkhip;
+    font-size: 2.1em;
+
+    color:#c19dbe;
+
+    text-align: center;
+
+    padding-top: 10px;
+}
+
+/*Configurando a responsividade dos proximos lançametnos*/
+@media screen and (max-width:1679px){
+    .no-margin{
+        margin:0px 60px 50px 60px;
+    }
+}
+@media screen and (max-width:1276px){ /*Configurando a responsividade, quando chega no tamanho de 1096px*/
+    .lançamentos{ /*Configurando cada lançamento individual*/
+        margin:50px 60px;
+    }
+    .img-lançamentos{ /*Tirando o espaçamento da imagem*/
+        margin-top:0px;
+    }
+}
+@media screen and (max-width:856px){
+    .lançamentos{ /*Configurando cada lançamento individual*/
+        margin:50px 30px;
+    }
+    .img-lançamentos{ /*Deixando o espaçametno da imagem normal*/
+        margin-top:30px;
+    }
+}

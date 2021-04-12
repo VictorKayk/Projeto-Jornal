@@ -1,0 +1,19 @@
+/*
+
+    Mural de lembretes:
+
+
+*/
+
+
+
+
+/*Configurando o padrão dos temas*/
+.nome-tema-bg{ /*Configurando a imagem de fundo do tema*/
+    background-image:url(../../imagens/pagina-temas/tema-cultura/Banner_Cultura.png);
+}
+
+/*Configurando proximos lançamentos*/
+.proximos-lançamentos{ /*Configurando a imagem de fundo dos proximos lançamentos*/
+    background-image:url(../../imagens/pagina-temas/tema-cultura/Lançamentos_Culutra/Lançamento_cultura.png);
+}
