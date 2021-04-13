@@ -159,7 +159,7 @@ main{ /*Configurando o main*/
     padding-right:30px;
 }
 .autor{ /*Configuração da imagem do autor*/
-    width:75px;
+    width:100px;
 }
 .informações{ /*Configuração da informação*/
     font-family:'be-vietnam';
@@ -199,7 +199,7 @@ main{ /*Configurando o main*/
 }
 
 /*Configuração da responsividade das informações do autor da noticia*/
-@media screen and (max-width: 682px){ /*Configurando a responsividade, quando a tela chega no tamanho de 682px*/
+@media screen and (max-width: 724px){ /*Configurando a responsividade, quando a tela chega no tamanho de 682px*/
     .informações-autor-noticia{ /*Configurando o conteiner das informações do autor*/
         flex-direction:column;
 
@@ -214,7 +214,7 @@ main{ /*Configurando o main*/
         padding-left:0px;   
     }
 }
-@media screen and (max-width:480px){ /*Configurando a responsividade, quando a tela chega no tamanho de 480px*/
+@media screen and (max-width:506px){ /*Configurando a responsividade, quando a tela chega no tamanho de 480px*/
     .informações-autor-noticia{ /*Configurando o espaçamento do conteiner das informações do autor*/
         margin: 0px 45px 10px 45px;
     }
