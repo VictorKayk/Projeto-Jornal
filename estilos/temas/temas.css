@@ -51,18 +51,20 @@
         padding:40px 35px 40px 40px;
     }
 }
-@media screen and (max-width:400px){ /*Configurando a responsividade, quando chegar no tamanho de 400px*/
+@media screen and (max-width:448px){ /*Configurando a responsividade, quando chegar no tamanho de 400px*/
     .nome-tema{ /*Configurando o espaçamento do nome do tema*/
-        padding:40px 35px 40px 35px;
+        padding:40px 35px 30px 30px;
+        font-size:3.5em;
     }
 }
 @media screen and (max-width:350px){ /*Configurando a responsividade, quando chegar no tamanho de 350px*/
     .nome-tema{ /*Configurando o tamanho do nome do tema*/
-        font-size:3.5em;
+        padding:40px 35px 30px 20px;
+        font-size:3em;
     }
 }
 @media screen and (max-width:300px){ /*Configurando a responsividade, quando chegar no tamanho de 300px*/
     .nome-tema{ /*Configurando o tamanho do nome do tema*/
-        font-size:3em;
+        font-size:2.5em;
     }
 }

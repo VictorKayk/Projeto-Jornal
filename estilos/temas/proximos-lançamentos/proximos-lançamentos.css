@@ -11,13 +11,76 @@
 
 /*Configuração padrão dos temas*/
 /*Configurando os proximos lançamentos*/
-.proximos-lançamentos{ /*Configurando o fundo dos proximos lançamentos*/
+/*Configurando o titulo de lançamentos*/
+.proximos-lançamentos{
+    padding: 75px 0px 30px 10px;
+}
+.lançamento-titulo{
+    display:flex;
+
+    align-items:center;
+    flex-wrap:wrap;
+}
+.lançamento-img{
+    margin-right:30px;
+}
+.lançamento-img-secundaria{
+    min-width:176px;
+
+    margin-right:10px;
+}
+
+/*Responsividade do titulo de lançamentos*/
+@media screen and (max-width:648px){
+    .lançamento-secundario{
+        display:flex;
+    
+        justify-content:center;
+    
+        width: 100%;
+
+        margin-top:15px;
+    }
+}
+@media screen and (max-width:420px){
+    .lançamento-img{
+        width:346.8px;
+    }
+    .lançamento-img-secundaria{
+        width:149.6px;
+        min-width: 149.6px;
+    }
+}
+@media screen and (max-width:375px){
+    .proximos-lançamentos{
+        padding: 75px 0px 30px 2px;
+    }
+    .lançamento-img{
+        width:306px;
+    }
+    .lançamento-img-secundaria{
+        width:132px;
+        min-width: 132px;
+    }
+}
+@media screen and (max-width:305px){
+    .lançamento-img{
+        width:244.8px;
+    }
+    .lançamento-img-secundaria{
+        width:105.6px;
+        min-width: 105.6px;
+    }
+}
+
+/*Configurando o fundo de lançamentos*/
+.proximos-lançamentos-bg{ /*Configurando o fundo dos proximos lançamentos*/
     width: 100%;
 
     background-size:cover;
     background-repeat:no-repeat;
 
-    margin:60px 0px 70px 0px;
+    margin:0px 0px 70px 0px;
 }
 .lançamentos-list{ /*Configurando a lista de lançamentso*/
     display:flex;
@@ -76,7 +139,7 @@
         margin-top:0px;
     }
 }
-@media screen and (max-width:856px){
+@media screen and (max-width:907px){
     .lançamentos{ /*Configurando cada lançamento individual*/
         margin:50px 30px;
     }
