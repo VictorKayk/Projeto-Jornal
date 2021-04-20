@@ -28,8 +28,7 @@ main{ /*Configurando o main*/
 
     min-height:430px;
     width:100%;
-
-    background-image:url(../imagens/Pagina-Noticia/Place_Holder_banner.png);
+    
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -275,8 +274,24 @@ main{ /*Configurando o main*/
 
     color:#63384f;
 }
-.noticia-part1{ /*Configurando o espaçamento da primeira parte da noticia*/
+.noticia-part{ /*Configurando o espaçamento da primeira parte da noticia*/
     padding-top:40px;
+    padding-bottom:20px;
+}
+.titulo-part-noticia{
+    font-size: 3em;
+
+    line-height:50px;
+
+    padding-top:20px;
+    padding-bottom:40px;
+}
+.subtitulo-part-noticia{
+    font-size:2.5em;
+
+    line-height:50px;
+
+    padding-bottom:35px;
 }
 .imagem-noticia{ /*Configurando a imagem da noticia*/
     width:800px;
@@ -288,10 +303,6 @@ main{ /*Configurando o main*/
 }
 .imagem-noticia:hover{ /*Configurando o que acontece quando se passa o mouse por cima da imagem*/
     transform:scale(1.04);
-}
-.noticia-part2{ /*Configurando o espaçamento da segunda parte da noticia*/
-    padding-bottom:20px;
-
 }
 /*Configurando a responsividade da materia*/
 @media screen and (max-width:1150px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 1150px*/
@@ -323,7 +334,7 @@ main{ /*Configurando o main*/
 }
 @media screen and (max-width:770px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 760px*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
-        margin: 10px 100px 60px 100px;
+        margin: 10px 90px 60px 90px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:520px;
@@ -332,7 +343,7 @@ main{ /*Configurando o main*/
 }
 @media screen and (max-width:570px){ /*Configurando a responsivida da materia (noticia), quando chega no tamanho de 570px*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
-        margin: 10px 75px 60px 75px;
+        margin: 10px 65px 60px 65px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:400px;
@@ -345,32 +356,45 @@ main{ /*Configurando o main*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia) e o tamanho da fonte*/
         font-size:1.28em;
 
-        margin: 10px 60px 60px 60px;
+        margin: 10px 50px 60px 50px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:360px;
         height:250px;   
     }
+    .titulo-part-noticia{
+        font-size:2.5em;
+    }
+    .subtitulo-part-noticia{
+        font-size:2em;
+    }
 }
 @media screen and (max-width:390px){ /*Configurando a responsivida da materia (noticia, quando chega no tamanho de 390px*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
-        margin: 5px 40px 60px 40px;
+        margin: 5px 35px 60px 35px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:320px;
         height:230px;   
+    }
+    .titulo-part-noticia{
+        font-size:2.2em;
+    }
+    .subtitulo-part-noticia{
+        font-size: 1.8em;
     }
 }
 @media screen and (max-width:340px){ /*Configurando a responsivida da materia (noticia, quando chega no tamanho de 300px*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia) e o tamanho da fonte*/
         font-size:1.23em;
 
-        margin: 3px 25px 60px 25px;
+        margin: 3px 20px 60px 20px;
     }
     .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:290px;
         height:200px;   
     }
+    
 }
 
 
