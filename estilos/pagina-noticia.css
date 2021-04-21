@@ -301,6 +301,12 @@ main{ /*Configurando o main*/
 
     transition: all ease-in-out 0.5s;
 }
+.video-noticia{
+    width:800px;
+    height:500px;
+
+    margin: 60px 0px 40px 0px;
+}
 .imagem-noticia:hover{ /*Configurando o que acontece quando se passa o mouse por cima da imagem*/
     transform:scale(1.04);
 }
@@ -309,7 +315,7 @@ main{ /*Configurando o main*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 180px 60px 180px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:700px;
         height:450px;   
     }
@@ -318,7 +324,7 @@ main{ /*Configurando o main*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 160px 60px 160px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:620px;
         height:380px;   
     }
@@ -327,7 +333,7 @@ main{ /*Configurando o main*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 130px 60px 130px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:550px;
         height:350px;   
     }
@@ -336,7 +342,7 @@ main{ /*Configurando o main*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 90px 60px 90px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:520px;
         height:350px;   
     }
@@ -345,7 +351,7 @@ main{ /*Configurando o main*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 10px 65px 60px 65px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:400px;
         height:280px;   
 
@@ -358,7 +364,7 @@ main{ /*Configurando o main*/
 
         margin: 10px 50px 60px 50px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:360px;
         height:250px;   
     }
@@ -373,7 +379,7 @@ main{ /*Configurando o main*/
     .noticia-bg{ /*Configurando o espaçamento da materia (noticia)*/
         margin: 5px 35px 60px 35px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:320px;
         height:230px;   
     }
@@ -390,7 +396,7 @@ main{ /*Configurando o main*/
 
         margin: 3px 20px 60px 20px;
     }
-    .imagem-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
+    .imagem-noticia, .video-noticia{ /*Configurando tamanho da imagem da materia (noticia)*/
         width:290px;
         height:200px;   
     }
