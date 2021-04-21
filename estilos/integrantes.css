@@ -67,8 +67,7 @@
     transition: all 0.2;
 }
 .informações-integrante a:hover{ /*Configurnado o que acontece, quando se passa o mouse por cima do links da materia*/
-    font-weight: bold;
-    color: black;
+    color:#884151;
 
     text-decoration:underline;  
 }
@@ -84,6 +83,12 @@
 }
 .materias-integrante{ /*Configurando as materias do integrante*/
     margin:5px 0px;
+}
+.materia-list{
+    margin-top:10px;
+}
+.materia-list li{
+    padding: 7px 0px 7px 0px;
 }
 .redes{ /*Configurando a margim das imagens de redes sociais*/
     margin-top:20px;
