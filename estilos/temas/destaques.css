@@ -10,5 +10,55 @@
 /*Configurando o individual do tema*/
 /*Configurando o padrão dos temas*/
 .nome-tema-bg{
-    background-image:url(../../imagens/pagina-temas/tema-cultura/Banner_Cultura.png);
+    background-image:url(../../imagens/pagina-temas/tema-destaques/Banner_Destaques.png);
+}
+
+
+/*Configurando os dados do Covid*/
+.dados-covid-titulo{
+    display:flex; 
+
+    align-items:center;
+    flex-wrap:wrap;
+
+    padding: 75px 0px 30px 10px;
+}
+.dados-titulo{
+    margin-right:30px;
+}
+.covid-titulo{
+    min-width:176px;
+
+    margin-right:10px;
+}
+
+/*Responsividade*/
+
+
+/*Configurando o fundo*/
+.dados-covid-bg{ /*Configurando o background da parte das moedas*/
+    width:100%;
+    
+    background-image:url(../../imagens/pagina-temas/tema-destaques/Covid_info/Covid_background.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.dados-covid{
+    display:flex;
+
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.dados-covid-individual{ /*Configurando o conteiner individual das moedas*/
+    display:flex;
+
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    margin:60px 20px;
+}
+.dados-covid-img{ /*Configurando o tamanho das imagens das moedas*/
+    width:100px;
 }

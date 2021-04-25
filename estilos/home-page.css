@@ -162,6 +162,9 @@
 .economia{ /*Configurando o espaçamento do titulo economia*/
     padding:75px 0px 25px 10px;
 }
+.temas-part{ /*Configurando o espaçamento do titulo temas*/
+    padding:79px 0px 25px 10px;
+}
 .moedas-bg{ /*Configurando o background da parte das moedas*/
     width:100%;
     
@@ -229,7 +232,7 @@
 
     background-color: var(--cor-principal);
 
-    margin:100px 0px;
+    margin-bottom: 95px;
 }
 .tema-img{ /*Configuração das imagens dos temas*/
     width:400px;
