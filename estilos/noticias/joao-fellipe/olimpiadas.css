@@ -11,3 +11,11 @@
 .titulo-noticia-bg{ /*Configurando a imagem de fundo da noticia*/
     background-image: url(../../../imagens/Noticias/joao-felipe/olimpiadas/Banner_Manchete.png);
 }
+
+/*Configurando a lista da cartilha dos jogos*/
+.cartilha-jogos{ /*Configurando o estilo da lista*/
+    list-style:disc;
+}
+.cartilha-jogos li{ /*Configurando o espaçamento de cada item individual*/
+    padding-left:30px;
+}
