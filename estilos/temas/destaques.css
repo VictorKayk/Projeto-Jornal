@@ -29,36 +29,70 @@
 .covid-titulo{
     min-width:176px;
 
-    margin-right:10px;
+    margin-right:30px;
 }
 
 /*Responsividade*/
+@media screen and (max-width:654px){
+    .dados-covid-titulo-secundario{
+        display:flex;
+    
+        justify-content:center;
+    
+        width: 100%;
+
+        margin-top:15px;
+
+    }
+    .covid-titulo{
+        margin-right:0px;
+    }
+}
+
+
+
 
 
 /*Configurando o fundo*/
-.dados-covid-bg{ /*Configurando o background da parte das moedas*/
+.dados-covid-bg{ /*Configurando o background da parte dos dados do covid*/
     width:100%;
     
     background-image:url(../../imagens/pagina-temas/tema-destaques/Covid_info/Covid_background.png);
     background-size: cover;
     background-repeat:no-repeat ;
+
+    margin-bottom: 70px;
 }
-.dados-covid{
+.dados-covid{ /*Configurando o conteiners dos dados do covid*/
     display:flex;
 
     flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
 }
-.dados-covid-individual{ /*Configurando o conteiner individual das moedas*/
+.dados-covid-individual{ /*Configurando o conteiner individual dos dados do covid*/
     display:flex;
 
     flex-direction:column;
     justify-content: center;
     align-items: center;
 
-    margin:60px 20px;
+    margin:60px 45px;
 }
-.dados-covid-img{ /*Configurando o tamanho das imagens das moedas*/
+.dados-covid-img{ /*Configurando o tamanho das imagens dos dados do covid*/
     width:100px;
+}
+
+.informações-covid{ /*Configurando as informações sobre o covid*/
+    text-align:center;
+
+    font-family:"be-vietnam";
+    font-size:2em;
+
+    color:#ffeefa;
+
+    margin-top:10px;
+}
+.informações-covid-texto{ /*Configurando o espaçamento do texto*/
+    padding: 5px 0px;
 }
