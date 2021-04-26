@@ -1,0 +1,24 @@
+/*
+
+    Mural de lembretes:
+
+
+*/
+
+
+
+/*Configurando o individual da notica*/
+.titulo-noticia-bg{ /*Configurando a imagem de fundo da noticia*/
+    background-image: url(../../../imagens/Noticias/Victor-Kayk/Wild-Rift/Banner_Manchete.png);
+}
+
+
+/*Configurando a lista de celulares*/
+.filme-list{ /*Configurando a lista*/
+    list-style:disc;
+
+    padding-left:30px;
+}
+.filme-list li{ /*Configurando o itens*/
+    margin: 7px 0px 7px 0px;
+}

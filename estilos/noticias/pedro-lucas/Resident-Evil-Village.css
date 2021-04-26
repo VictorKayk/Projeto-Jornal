@@ -1,0 +1,13 @@
+/*
+
+    Mural de lembretes:
+
+
+*/
+
+
+
+/*Configurando o individual da notica*/
+.titulo-noticia-bg{ /*Configurando a imagem de fundo da noticia*/
+    background-image: url(../../../imagens/Noticias/pedro-lucas/Resident-Evil/Banner_Manchete.png);
+}
