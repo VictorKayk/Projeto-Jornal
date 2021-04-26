@@ -293,7 +293,7 @@
         padding-top:0px;
     }
 }
-@media screen and (max-width:324px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 284px*/
+@media screen and (max-width:383px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 284px*/
     .no-padding-footer3 li{
         padding-top:0px;
     }
