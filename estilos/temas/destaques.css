@@ -33,7 +33,21 @@
 }
 
 /*Responsividade*/
-@media screen and (max-width:654px){
+@media screen and (max-width:509px){
+    .covid-titulo{
+        width:195.5px;
+
+        margin-right:20px;
+    }
+}
+@media screen and (max-width:451px){
+    .covid-titulo{
+        width:172.5px;
+
+        margin-right:15px;
+    }
+}
+@media screen and (max-width:428px){
     .dados-covid-titulo-secundario{
         display:flex;
     
