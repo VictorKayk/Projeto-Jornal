@@ -3,7 +3,8 @@
 /*Fontes*/
 @font-face{ /*Fonte Arkhip*/
     font-family: Arkhip;
-    src:url(../fontes/Arkhip/Arkhip-Regular.otf) format('opentype'), url(../fontes/Arkhip/Arkhip-Regular.ttf) format('truetype');
+	src:url(../fontes/coolvetica/coolvetica\ rg.ttf) format('truetype');
+    /*src:url(../fontes/Arkhip/Arkhip-Regular.otf) format('opentype'), url(../fontes/Arkhip/Arkhip-Regular.ttf) format('truetype');*/
 }
 @font-face{ /*Fonte be-vietnam*/
     font-family: "be-vietnam";

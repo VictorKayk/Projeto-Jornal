@@ -288,12 +288,17 @@
 }
 
 /*Responsividade da barra de navegação do rodapé*/
-@media screen and (max-width:501px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 501px*/
-    .no-padding-footer li, .no-padding-footer2 li{
+@media screen and (max-width:596px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 596px*/
+    .no-padding-footer li{
         padding-top:0px;
     }
 }
-@media screen and (max-width:383px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 284px*/
+@media screen and (max-width:462px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 462px*/
+    .no-padding-footer2 li{
+        padding-top:0px;
+    }
+}
+@media screen and (max-width:313px){ /*Retirando o espaçamento de um item individual, quando o tamanho chega em 313px*/
     .no-padding-footer3 li{
         padding-top:0px;
     }

@@ -60,7 +60,7 @@
     text-decoration:none;
     
     font-family:'be-vietnam';
-    font-size: 1.05em;
+    font-size: 1.1em;
 
     color: #483f45;
 
@@ -88,6 +88,7 @@
     margin-top:10px;
 }
 .materia-list li{
+    font-size: 0.85rem;
     padding: 7px 0px 7px 0px;
 }
 .redes{ /*Configurando a margim das imagens de redes sociais*/
