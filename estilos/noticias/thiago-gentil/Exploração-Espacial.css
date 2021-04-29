@@ -11,3 +11,11 @@
 .titulo-noticia-bg{ /*Configurando a imagem de fundo da noticia*/
     background-image: url(../../../imagens/Noticias/thiago/Espaço/banner_Manchete.png);
 }
+
+.citacao{ /*Configurando as citações de Thiago*/
+    font-size:0.75em;
+
+    color: #434343;
+
+    text-align:center;
+}
