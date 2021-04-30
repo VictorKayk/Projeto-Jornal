@@ -1,0 +1,31 @@
+/*
+
+    Mural de lembretes:
+
+
+*/
+
+
+.noticias-conteiner{ /*Espaçando as noticias*/
+    justify-content: space-evenly;
+}
+.noticia{ /*Configurando para deixar as noticias em coluna*/
+    flex-direction:column;
+}
+.noticia-img{ /*Configurando o tamanho das imagens*/
+    width:370px;
+    height:240px;
+}
+.tema-noticia{ /*Configurando o espaçamento superior do tema de noticia*/
+    padding-top:10px;
+}
+.noticia-tema-titulo-descrição{
+    margin-top:10px;
+}
+
+@media screen and (max-width:395px){ /*Responsividade da pagina de temas, quando chegar no tamanho de 365x*/
+    .noticia-img{ /*Configurando o tamanho das imagens*/
+        width:270px;
+        height: 170px;
+    }
+}
