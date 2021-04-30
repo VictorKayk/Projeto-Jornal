@@ -32,3 +32,6 @@ O grupo responsavel por produzir o site foi composto por:
 
 ## Link de teste:
 https://victorkayk.github.io/Hermes-Diary/
+
+## Mural:
+https://victorkayk.github.io/Hermes-Diary/Mural-dos-Trabalhos/index.html
