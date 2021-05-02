@@ -1,0 +1,5 @@
+Cor 1 _ #309421
+Cor 2 _ #14691b
+
+Fontes usada : Aaux ProMedium SC
+Cor da fonte : fff0f0
